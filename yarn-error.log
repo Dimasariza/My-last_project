@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
+
+PATH: 
+  /home/samuel/go/bin:/usr/local/go/bin:/home/samuel/go/bin:/usr/local/go/bin:/home/samuel/.cargo/bin:/home/samuel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-12-oracle/bin:/usr/lib/jvm/java-12-oracle/db/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.19.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+
+npm manifest: 
+  {
+    "name": "belajar-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+      "express": "^4.17.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
